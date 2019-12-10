@@ -118,7 +118,7 @@ def init_db():
     conn.commit()
     conn.close()
 
-init_db() initiates database - creates empty tables
+init_db() #initiates database - creates empty tables
 
 # scrapes the first page for links to news articles, crawls to those links and scrapes article title, date, and content
 def scrape_unaids():
